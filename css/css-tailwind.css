@@ -37,10 +37,6 @@ Sections
 Remove the margin in all browsers.
 */
 
-body {
-  margin: 0;
-}
-
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
@@ -49,6 +45,7 @@ body {
   font-family: system-ui, -apple-system,
     /* Firefox supports this but not yet `system-ui` */ "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  margin: 0px;
 }
 
 /*
@@ -619,10 +616,11 @@ video {
 
 .a9 {
   width: 100%;
-  margin-right: auto;
+  margin-right: 0px;
   margin-left: auto;
   padding-right: 16px;
   padding-left: 16px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 540px) {
@@ -1751,7 +1749,10 @@ body {
   background: #dfdfdf;
   font-family: "Inter", sans-serif;
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
 .sticky {
   position: fixed;
   z-index: 9999;
@@ -2681,4 +2682,29 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+.profile {
+  animation: slide-in 1s forwards;
+}
 
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.myRotate {
+  display: inline-block;
+  transform-origin: center center;
+  animation: spin 3s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
