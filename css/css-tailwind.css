@@ -628,6 +628,11 @@ video {
     max-width: 540px;
   }
 }
+@media (min-width: 1920px) {
+ .a9{
+  max-width: 1920px;
+ } 
+}
 
 @media (min-width: 720px) {
   .a9 {
