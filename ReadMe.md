@@ -1,4 +1,4 @@
-[![Nihory - Portfolio site template](https://i.ibb.co/Y8CRzL4/Nihory-basic-preview-image.png)](https://nihory-basic.netlify.app/)
+[![Nihory - Portfolio site template](https://i.ibb.co/vq3F5yR/image.png)](https://syedhaseeb1.github.io)
 .
 .
 
