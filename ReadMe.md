@@ -22,7 +22,7 @@ Nihory is a creative 🌈 personal & portfolio template based on HTML, CSS and J
 .
 .
 
-[![Nihory - Portfolio site template live demo](https://i.ibb.co/vwN8cgW/live-demo.png)](https://nihory-basic.netlify.app/)
+[![Nihory - Portfolio site template live demo](https://i.ibb.co/vq3F5yR/image.png)](https://syedhaseeb1.github.io)
 
 .
 .
